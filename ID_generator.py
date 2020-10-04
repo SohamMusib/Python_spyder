@@ -89,11 +89,10 @@ temp=message
 color = 'rgb(0, 0, 0)' # black color 
 draw.text((x, y), message, fill=color, font=font)
 
-
-
-
-
-
+(x, y) = (50, 750)
+message = input('Enter Your Address: ')
+color = 'rgb(0, 0, 0)' # black color 
+draw.text((x, y), message, fill=color, font=font)
 
 
 
